@@ -44,9 +44,10 @@
 .Info {
   display: inline-block;
   margin-left: 12px;
+  
 }
 
-.Info.name {
+.Info-name {
   font-size: 1.25rem;
   font-weight: bold;
 }
