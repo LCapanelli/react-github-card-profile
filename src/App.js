@@ -2,7 +2,35 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+//card
+//list
+
+class Card extends React.Component {
+  render() {
+    return (
+      <div className="Github-profile">
+        <img className="Profile-image" src="https://placehold.it/75" />
+        <div className="Info">
+          <div className="Info.Name">name here</div>
+          <div className="Info.Company">company here</div>
+        </div>
+      </div>
+      ); 
+  }
+}
+
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <div className="Header">{this.props.title}</div>
+        <Card />
+      </div>
+    ); 
+  }
+}
+
+/* function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +49,6 @@ function App() {
       </header>
     </div>
   );
-}
+} */
 
 export default App;

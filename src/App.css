@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.Github-profile {
+	margin: 1rem; 
+}
+
+.Info {
+  display: inline-block;
+  margin-left: 12px;
+}
+
+.Info.name {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.Profile-image {
+  width: 75px;
+}
+
+Form {
+	border: thin solid #ddd;
+  background-color: #fbfbfb;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.Header {
+	text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
